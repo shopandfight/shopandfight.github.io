@@ -1,0 +1,1137 @@
+:root{
+    --color:#ce4b64;
+    --border: #eb080d;
+    --background-color:#fff;
+}
+body{
+    background-color: #282A35;
+}
+section{
+        display: grid;
+        grid-template-columns: 222px 422px 422px 222px;
+        grid-template-areas: "head head head head" "side main main sides" "foot foot foot foot"; 
+        gap: 1%;
+}
+header{
+    background-color: var(--background-color);
+    background-size: cover;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    grid-area: head;
+    margin: -8px;
+    position: fixed;
+    box-shadow: 1px 0 2px 1px var(--border);
+    z-index: 1;
+}
+header img{
+    width: 400px;
+    height: 60px;
+    margin-right: 130px;
+    margin-left: 20px;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+li{
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 15px;
+    font-size: 30px;
+    color: var(--color);
+    font-weight: bold;
+    cursor: pointer;
+}
+header a li{
+    font-size: 35px;
+}
+button{
+    border: none;
+    background-color: var(--background-color);
+    font-size: 30px;
+}
+::selection{
+    background-color:var(--color);
+    color: var(--background-color);
+}
+main{
+    grid-area: main;
+    margin-top: 10%;
+}
+#gtitle{
+    border-bottom: 4px solid var(--border);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+    color: var(--color);
+    font-weight: bold;
+    margin-left: 15px;
+    margin-bottom: 50px;
+}
+#head img{
+    width: 850px;
+    margin-top: -386px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-left: 6px;
+}
+#gym img{
+    width: 850px;
+    margin-left: 15px;
+    margin-top: 2px;
+    margin-bottom:48px ;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.side{
+    height: 250px;
+    background-color:var(--background-color);
+    grid-area: side;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    position: fixed;
+    top: 14.5%;
+    left: 1%;
+    width: 222px;
+    z-index: 1;
+}
+.sides{
+    grid-area: sides;
+    position: fixed;
+    top: 14.5%;
+    right: 1%;
+    width: 222px;
+    height: 250px;
+    background-color: var(--background-color);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    z-index: 1;
+}
+.ftitle{
+    border-bottom: 2px solid var(--border);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+    color: var(--color);
+    font-weight: bold;
+    margin-top: -5px;
+}
+aside li img{
+    width:30px;
+    height: 30px;
+    padding-top: 20px;
+    margin-right: 10px;
+}
+bdi{
+    vertical-align: middle;
+}
+#wtitle{
+    border-bottom: 4px solid var(--border);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 52px;
+    color: var(--color);
+    font-weight: bold;
+    margin-left: 15px;
+    margin-bottom: 50px;
+}
+.sides bdi{
+    font-size: 23px;
+    vertical-align: middle;
+}
+.whey{
+    width: 850px;
+    background-color: #fff;
+    height: 1225px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-left: 15px;
+    margin-bottom: 48px;
+}
+.wlogo{
+    width: 120px;
+    height: 90px;
+    padding-top: 5px;
+    padding-left: 33px;
+}
+.flogo{
+    width: 225px;
+    height: 60px;
+    position: relative;
+    left: 420px;
+    top: 10px;
+}
+.wtitle{
+    display: flex;
+}
+.wtitle::after{
+    content:"";
+    width: 400px;
+    height: 4px;
+    background-color: #eb080d;
+    position: relative;
+    top: 50px;
+    right: 215px;
+}
+.wimg img{
+    width: 240px;
+    height: 240px;
+    border: 2px solid var(--color);
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.wimg{
+    display: flex;
+    flex-wrap: wrap;
+}
+.wcap1 span{
+    font-size: 25px;
+    color: var(--color);
+    margin-left: 55px;
+    margin-right: 20px;
+    margin-top: 300px;
+    position: relative;
+    bottom: 750px;
+}
+.wcap2 span{
+    font-size: 25px;
+    color: var(--color);
+    margin-left: 100px;
+    margin-right: 60px;
+    margin-top: 300px;
+    position: relative;
+    bottom: 435px;
+}
+.wcap3 span{
+    font-size: 25px;
+    color: var(--color);
+    margin-left: 55px;
+    margin-right: 20px;
+    margin-top: 300px;
+    position: relative;
+    bottom: 120px;
+}
+.dlogo{
+    width: 225px;
+    height: 60px;
+    position: relative;
+    bottom: 50px;
+    left: 57px;
+}
+.wend{
+    display: flex;
+}
+.wend::after{
+    content:"";
+    width: 400px;
+    height: 2px;
+    background-color: #eb080d;
+    position: relative;
+    bottom: 10px;
+    left: -3px;
+}
+.wend span{
+    font-size: 39px;
+    position: relative;
+    color: var(--border);
+    left: 492px;
+    bottom: 40px;
+}
+.wcap4 span{
+    font-size: 25px;
+    color: var(--color);
+    margin-left: 50px;
+    margin-right: 11px;
+    margin-top: 300px;
+    position: relative;
+    bottom: 745px;
+}
+.wcap5 span{
+    font-size: 25px;
+    color: var(--color);
+    margin-left: 69px;
+    margin-right: 37px;
+    margin-top: 300px;
+    position: relative;
+    bottom: 430px;
+}
+.wcap6 span{
+    font-size: 25px;
+    color: var(--color);
+    margin-left: 55px;
+    margin-right: 20px;
+    margin-top: 300px;
+    position: relative;
+    bottom: 120px;
+}
+.wcap6 span:nth-child(2){
+    font-size: 22px;
+}
+.wcap7 span{
+    font-size: 25px;
+    color: var(--color);
+    margin-left: 110px;
+    margin-right: 70px;
+    margin-top: 300px;
+    position: relative;
+    bottom: 745px;
+}
+.wcap8 span{
+    font-size: 25px;
+    color: var(--color);
+    margin-left: 78px;
+    margin-right: 9px;
+    margin-top: 300px;
+    position: relative;
+    bottom: 430px;
+}
+.wcap9 span{
+    font-size: 25px;
+    color: var(--color);
+    margin-left: 83px;
+    margin-right: 56px;
+    margin-top: 300px;
+    position: relative;
+    bottom: 120px;
+}
+.wcap10 span{
+    font-size: 25px;
+    color: var(--color);
+    margin-left: 73px;
+    margin-right: 15px;
+    margin-top: 300px;
+    position: relative;
+    bottom: 745px;
+}
+.wcap11 span{
+    font-size: 25px;
+    color: var(--color);
+    margin-left: 69px;
+    margin-right: 66px;
+    margin-top: 300px;
+    position: relative;
+    bottom: 430px;
+}
+.wcap12 span{
+    font-size: 25px;
+    color: var(--color);
+    margin-left: 83px;
+    margin-right: 9px;
+    margin-top: 300px;
+    position: relative;
+    bottom: 120px;
+}
+.wheyn{
+    width: 850px;
+    background-color: #fff;
+    height: 860px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-left: 15px;
+}
+.wcap13 span{
+    font-size: 25px;
+    color: var(--color);
+    margin-left: 94px;
+    margin-right: 60px;
+    margin-top: 300px;
+    position: relative;
+    bottom: 745px;
+}
+.wcap14 span{
+    font-size: 25px;
+    color: var(--color);
+    margin-left: 40px;
+    margin-right: 34px;
+    margin-top: 300px;
+    position: relative;
+    bottom: 430px;
+}
+.wcap15 span{
+    font-size: 25px;
+    color: var(--color);
+    margin-left: 100px;
+    margin-right: 24px;
+    margin-top: 300px;
+    position: relative;
+    bottom: 120px;
+}
+.wcap16 span{
+    font-size: 25px;
+    color: var(--color);
+    margin-left: 67px;
+    margin-right: -5px;
+    margin-top: 300px;
+    position: relative;
+    bottom: 407px;
+}
+.wcap17 span{
+    font-size: 25px;
+    color: var(--color);
+    margin-left: 76px;
+    margin-right: 34px;
+    margin-top: 300px;
+    position: relative;
+    bottom: 84px;
+}
+#atitle{
+    border-bottom: 4px solid var(--border);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 90px;
+    color: var(--color);
+    font-weight: bold;
+    margin-left: 15px;
+    margin-bottom: 50px;
+}
+.wcap18 span{
+    font-size: 25px;
+    color: var(--color);
+    margin-left: 82px;
+    margin-right: 51px;
+    margin-top: 300px;
+    position: relative;
+    bottom: 750px;
+}
+.wcap19 span{
+    font-size: 25px;
+    color: var(--color);
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 300px;
+    position: relative;
+    bottom: 435px;
+}
+.wcap20 span{
+    font-size: 25px;
+    color: var(--color);
+    margin-left: 70px;
+    margin-right: 30px;
+    margin-top: 300px;
+    position: relative;
+    bottom: 120px;
+}
+header li:hover,header a li:hover{
+    background-color: #eee;
+    padding: 8px 16px;
+    border-radius: 99px;
+    -webkit-border-radius: 99px;
+    -moz-border-radius: 99px;
+    -ms-border-radius: 99px;
+    -o-border-radius: 99px;
+}
+#fabout{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    position: fixed;
+    background-color: #eee;
+    left: 580px;
+    bottom: 370px;
+    z-index: 2;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: #ce4b64;
+    padding: 10px;
+    font-size: 17px;
+    visibility: hidden;
+}
+#fabout::before{
+    content: "";
+    position: relative;
+    z-index: 3;
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #eee;
+    bottom: 39px;
+    left: 132px;
+    visibility: hidden;
+}
+#fabout div:nth-child(1){
+    padding-left: 104px;
+    font-size:30px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+#fabout div:nth-child(2),#fservice div:nth-child(2),#price div:nth-child(2),#cont div:nth-child(2){
+    margin-bottom: 10px;
+}
+#fservice div:nth-child(3),#fservice div:nth-child(2){
+    font-size: 23px;
+}
+#fservice{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    position: fixed;
+    background-color: #eee;
+    left: 743px;
+    bottom: 370px;
+    z-index: 2;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: #ce4b64;
+    padding: 10px;
+    font-size: 17px;
+    visibility: hidden;
+}
+#fservice div:nth-child(1),#price div:nth-child(1),#cont div:nth-child(1){
+padding-left: 104px;
+font-size:30px;
+margin-bottom: 10px;
+}
+#price{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    position: fixed;
+    background-color: #eee;
+    left: 926px;
+    bottom: 370px;
+    z-index: 2;
+    border-radius: 10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    color: #ce4b64;
+    padding: 10px;
+    font-size: 17px;
+    visibility: hidden;
+}
+#cont{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    position: fixed;
+    background-color: #eee;
+    left: 1028px;
+    bottom: 370px;
+    z-index: 2;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: #ce4b64;
+    padding: 10px;
+    font-size: 17px;
+    visibility: hidden;
+}
+#navbar{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+    top: 50px;
+    z-index: 1;
+    visibility: hidden;
+}
+#ijk{
+    display: none;
+}
+#gym img,.whey,.wheyn{
+    margin-left: 6px;
+}
+@media (max-width: 767px){
+    header{
+        height: 150px;
+        z-index:11;
+        position: relative;
+        box-shadow: none;
+        width: 240px;
+    }
+    header a li{
+        display: none;
+    }
+    header button{
+        font-size: 50px;
+        margin-left: -40px;
+        margin-right: 80px;
+        top: 530px;
+        z-index: 6;
+    }
+    .ftitle{
+        display: none;
+    }
+    .side img{
+        top: 462px;
+        margin-top: 136px;
+        font-size: 35px;
+        margin-left: 307px;
+    }
+    .side bdi{
+        top: 420px;
+        font-size: 45px!important;
+    }
+    header button li{
+        font-size: 45px;
+    }
+    header img{
+        width: 240px;
+        display: none;
+    }
+    #ijk{
+        display: block;
+        position: fixed;
+        z-index: 12;
+        top: 50px;
+    }
+    section{
+        grid-template-areas:  "head head head head" " main main" "foot foot foot foot";
+    }
+    .side{
+        position: relative;
+        top:47856px;
+        width: 1056px;
+    }
+    .sides{
+        left: 1px;
+        top: -1px;
+        display: flex;
+        height: 151px;
+        width: 776px;
+        padding-left: 292px;
+        z-index: 10;
+    }
+    .sides bdi{
+        font-size: 40px;
+    }
+    #head img{
+        margin-top: -500px;
+        margin-left: -220px;
+        width: 1056px;
+        z-index: 3;
+    }
+    #gtitle,#wtitle,#atitle{
+        margin-left: -192px;
+        width: 977px;
+        font-size: 75px;
+    }
+    #gym img,.whey,.wheyn{
+        margin-left: -220px;
+        width: 1056px;
+    }
+    .wimg img{
+        width: 310px;
+        height: 310px;
+    }
+    .wcap1 span{
+        font-size: 35px;
+        margin-left: 52px;
+        margin-right: 10px;
+        bottom: 883px;
+    }
+    .wcap2 span{
+        font-size: 38px;
+        margin-left: 99px;
+        margin-right: 71px;
+        bottom: 503px;
+    }
+    .wcap3 span{
+        font-size: 35px;
+        margin-left: 45px;
+        margin-right: 35px;
+        bottom: 136px;    
+    }
+    .whey{
+        height: 1500px;
+    }
+    .wlogo {
+        width: 140px;
+        height: 110px;
+    }
+    .wtitle::after {
+        height: 5px;
+        top: 66px;
+        width: 500px;
+        right: 270px;
+    }
+    .flogo{
+        left: 531px;
+        width: 274px;
+        height: 72px;
+        top: 20px;
+    }
+    .dlogo{
+        width: 274px;
+        height: 72px;
+        top: -56px;
+        left: 68px;
+    }
+    .wend::after {
+        left: 23px;
+        height: 4px;
+        background-color: #ce4b64;
+        width: 491px;
+    }
+    .wend span {
+        font-size: 48px;
+        left: 634px;
+        color: #ce4b64;
+    }
+    .wcap4 span{
+        font-size: 35px;
+        margin-left: 35px;
+        margin-right: 26px;
+        bottom: 883px;
+    }
+    .wcap5 span{
+        font-size: 35px;
+        margin-left: 67px;
+        margin-right: 36px;
+        bottom: 503px;
+    }
+    .wcap6 span{
+        font-size: 35px;
+        margin-left: 60px;
+        margin-right: 4px;
+        bottom: 136px;
+    }
+    .wcap6 span:nth-child(2){
+        font-size: 30px;
+    }
+    .wcap7 span{
+        font-size: 38px;
+        margin-left: 110px;
+        margin-right: 86px;
+        bottom: 883px;
+    }
+    .wcap8 span{
+        font-size: 34px;
+        margin-left: 88px;
+        margin-right: 1px;
+        bottom: 503px;
+    }
+    .wcap9 span{
+        font-size: 35px;
+        margin-left: 90px;
+        margin-right: 69px;
+        bottom: 136px;
+    }
+    .wcap10 span{
+        font-size: 35px;
+        margin-left: 75px;
+        margin-right: 11px;
+        bottom: 883px;
+    }
+    .wcap11 span{
+        font-size: 34px;
+        margin-left: 74px;
+        margin-right: 85px;
+        bottom: 503px;
+    }
+    .wcap12 span{
+        font-size: 35px;
+        margin-left: 79px;
+        margin-right: 18px;
+        bottom: 136px;
+    }
+    .wcap13 span{
+        font-size: 35px;
+        margin-left: 100px;
+        margin-right: 80px;
+        bottom: 883px;
+    }
+    .wcap14 span{
+        font-size: 34px;
+        margin-left: 37px;
+        margin-right: 38px;
+        bottom: 503px;
+    }
+    .wcap15 span{
+        font-size: 35px;
+        margin-left: 107px;
+        margin-right: 40px;
+        bottom: 136px;
+    }
+    .wcap16 span{
+        font-size: 35px;
+        margin-left: 58px;
+        margin-right: -6px;
+        bottom: 474px;
+    }
+    .wcap17 span{
+        font-size: 35px;
+    }
+    .wheyn{
+        height: 1043px;
+    }
+    .wcap18 span{
+        font-size: 35px;
+        margin-left: 81px;
+        margin-right: 63px;
+        bottom: 883px;
+    }
+    .wcap19 span{
+        font-size: 34px;
+        margin-left: 53px;
+        margin-right: 80px;
+        bottom: 503px;
+    }
+    .wcap20 span{
+        font-size: 34px;
+        margin-left: 73px;
+        margin-right: 35px;
+        bottom: 136px;
+    }
+    #About{
+        margin-top:96924px;
+        margin-left: -6px;
+        z-index: 7;
+    }
+    #Service{
+        margin-top: 96924px;
+        margin-left: -73px;
+        z-index: 7;
+    }
+    #pricing{
+        margin-top: 96924px;
+        margin-left: -65px;
+        z-index: 7;
+    }
+    #contact{
+        margin-top: 96924px;
+        margin-left: -73px;
+        z-index: 7;
+    }
+    #fabout{
+        width: 400PX;
+        height: 300px;
+        top: 47536px;
+        left: -1073px;
+        position: relative;
+    }
+    #fabout div:nth-child(1),#fservice div:nth-child(1),#price div:nth-child(1),#cont div:nth-child(1){
+        font-size: 45px;
+    }
+    #fabout div:nth-child(2),#fabout div:nth-child(3),#fservice div:nth-child(2),#fservice div:nth-child(3),#price div:nth-child(2),#price div:nth-child(3),#cont div:nth-child(2),#cont div:nth-child(3){
+        font-size: 27px;
+    }
+    #price div bdi{
+        font-size: 30px!important;
+    }
+    #cont div bdi{
+        font-size: 30px;
+    }
+    #cont div{
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+    #price div{
+        margin-top: 15px;
+    }
+    #fservice{
+        width: 400PX;
+        height: 300px;
+        top: -690px;
+        left: 170px;
+        position: relative;
+    }
+    #fservice div:nth-child(3),#fservice div:nth-child(2){
+        font-size: 31px;
+        margin-bottom: 18px;
+    }
+    #price{
+        width: 400PX;
+        height: 300px;
+        top: -690px;
+        left: 219px;
+        position: relative;
+    }
+    #cont{
+        width: 400PX;
+        height: 300px;
+        top: -690px;
+        left: -13px;
+        position: relative;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    header button{
+        margin-left: -87px;
+        margin-right: 63px;
+    }
+    header a li{
+        margin-left: -98px;
+        margin-right: 119px;
+    }
+    header img{
+        width: 200px;
+    }
+    #head img{
+        margin-top: -400px;
+    }
+    .side{
+        position: fixed;
+        top: 345px;
+        left: 6px;
+        height: 200px;
+    }
+    .sides{
+        left: 6px;
+        top: 80px;
+    }
+    #fabout{
+        top: 69px;
+        left: 334px;
+    }
+    #fservice{
+        top: 69px;
+        left: 512px;
+    }
+    #price{
+        top: 69px;
+        left: 700px;
+    }
+    #cont{
+        top: 69px;
+        left: 786px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    header button{
+        margin-left: -87px;
+        margin-right: 63px;
+    }
+    header a li{
+        margin-left: -65px;
+        margin-right: 119px;
+    }
+    header img{
+        width: 250px;
+    }
+    #head img{
+        margin-top: -400px;
+        width: 950px;
+    }
+    .side{
+        position: fixed;
+        top: 345px;
+        left: 6px;
+        height: 200px;
+    }
+    .sides{
+        left: 6px;
+        top: 80px;
+    }
+    #gtitle,#wtitle,#atitle{
+        font-size: 40px;
+        width: 906px;
+    }
+    #fabout{
+        top: 69px;
+        left: 430px;
+    }
+    #fservice{
+        top: 69px;
+        left: 590px;
+    }
+    #price{
+        top: 69px;
+        left: 750px;
+    }
+    #cont{
+        top: 69px;
+        left: 880px;
+    }
+    #gym img,.whey,.wheyn{
+        margin-left: 1px;
+        width: 950px;
+    }
+    .wimg img{
+        width: 270px;
+        height: 270px;
+    }
+    .wcap1 span{
+        bottom: 806px;
+        font-size: 30px;
+        margin-left: 54px;
+        margin-right: 10px;
+    }
+    .wcap2 span{
+        bottom: 466px;
+        font-size: 30px;
+        margin-left: 92px;
+        margin-right: 81px;
+    }
+    .wcap3 span{
+        bottom: 126px;
+        font-size: 30px;
+        margin-left: 41px;
+        margin-right: 35px;
+    }
+    .whey{
+        height: 1309px;
+    }
+    .wlogo{
+        width: 144px;
+    }
+    .wtitle::after{
+        right: 222px;
+        width: 433px;
+    }
+    .flogo{
+        left: 478px;
+        width: 250px;
+        height: 63px;
+    }
+    .dlogo{
+        bottom: 73px;
+        left: 67px;
+        width: 245px;
+        height: 63px;
+    }
+    .wend::after{
+        bottom: 30px;
+        left: 20px;
+        background-color: #ce4b64;
+        width: 450px;
+    }
+    .wend span{
+        font-size: 42px;
+        color: var(--color);
+        left: 572px;
+        bottom: 62px;
+    }
+    .wcap4 span{
+        bottom: 806px;
+        font-size: 30px;
+        margin-left: 39px;
+        margin-right: 18px;
+    }
+    .wcap5 span{
+        bottom: 466px;
+        font-size: 30px;
+        margin-left: 68px;
+        margin-right: 32px;
+    }
+    .wcap6 span{
+        bottom: 126px;
+        font-size: 30px;
+        margin-left: 61px;
+        margin-right: 19px;
+    }
+    .wcap7 span{
+        bottom: 806px;
+        font-size: 30px;
+        margin-left: 104px;
+        margin-right: 89px;
+    }
+    .wcap8 span{
+        bottom: 466px;
+        font-size: 30px;
+        margin-left: 67px;
+        margin-right: 19px;
+    }
+    .wcap9 span{
+        bottom: 126px;
+        font-size: 30px;
+        margin-left: 68px;
+        margin-right: 85px;
+    }
+    .wcap10 span{
+        bottom: 806px;
+        font-size: 30px;
+        margin-left: 70px;
+        margin-right: 10px;
+    }
+    .wcap11 span{
+        bottom: 466px;
+        font-size: 30px;
+        margin-left: 59px;
+        margin-right: 78px;
+    }
+    .wcap12 span{
+        bottom: 126px;
+        font-size: 30px;
+        margin-left: 69px;
+        margin-right: 25px;
+    }
+    .wcap13 span{
+        bottom: 806px;
+        font-size: 30px;
+        margin-left: 87px;
+        margin-right: 75px;
+    }
+    .wcap14 span{
+        bottom: 466px;
+        font-size: 30px;
+        margin-left: 36px;
+        margin-right: 21px;
+    }
+    .wcap15 span{
+        bottom: 126px;
+        font-size: 30px;
+        margin-left: 100px;
+        margin-right: 25px;
+    }
+    .wcap16 span{
+        bottom: 434px;
+        font-size: 30px;
+        margin-left: 58px;
+        margin-right: -7px;
+    }
+    .wcap17 span{
+        bottom: 94px;
+        font-size: 30px;
+        margin-left: 76px;
+        margin-right: 38px;
+    }
+    .wheyn{
+        height: 901px;
+    }
+    .wcap18 span{
+        bottom: 806px;
+        font-size: 30px;
+        margin-left: 70px;
+        margin-right: 68px;
+    }
+    .wcap19 span{
+        bottom: 466px;
+        font-size: 30px;
+        margin-left: 56px;
+        margin-right: 55px;
+    }
+    .wcap20 span{
+        bottom: 126px;
+        font-size: 30px;
+        margin-left: 68px;
+        margin-right: 25px;
+    }
+}
