@@ -600,7 +600,7 @@ margin-bottom: 10px;
         font-size: 45px!important;
     }
     header button li{
-        font-size: 45px;
+        font-size: 35px;
     }
     header img{
         width: 240px;
@@ -615,66 +615,76 @@ margin-bottom: 10px;
     section{
         grid-template-areas:  "head head head head" " main main" "foot foot foot foot";
     }
+    .sides li{
+        margin-right: 131px;
+    }
+    .sides a{
+        width: 200px;
+        margin-left: 5px;
+        margin-right: 80px;
+    }
     .side{
         position: relative;
-        top:47856px;
-        width: 1056px;
+        top: 44450px;
+width: 970px;
     }
     .sides{
         left: 1px;
         top: -1px;
         display: flex;
         height: 151px;
-        width: 776px;
+        width: 790px;
         padding-left: 292px;
         z-index: 10;
+        box-shadow: 1px 0 2px 1px var(--border);
     }
     .sides bdi{
-        font-size: 40px;
+        font-size: 35px;
     }
     #head img{
         margin-top: -500px;
-        margin-left: -220px;
-        width: 1056px;
+        margin-left: -223px;
+        width: 970px;
         z-index: 3;
     }
     #gtitle,#wtitle,#atitle{
-        margin-left: -192px;
-        width: 977px;
+        margin-left: -210px;
+        width: 914px;
         font-size: 75px;
     }
     #gym img,.whey,.wheyn{
-        margin-left: -220px;
-        width: 1056px;
+        margin-left: -223px;
+width: 970px;
     }
     .wimg img{
-        width: 310px;
-        height: 310px;
+        width: 280px;
+        height: 280px;
     }
     .wcap1 span{
         font-size: 35px;
-        margin-left: 52px;
-        margin-right: 10px;
-        bottom: 883px;
+        margin-left: 39px;
+        margin-right: -8px;
+        bottom: 827px;
     }
     .wcap2 span{
         font-size: 38px;
-        margin-left: 99px;
-        margin-right: 71px;
-        bottom: 503px;
+        margin-left: 84px;
+        margin-right: 58px;
+        bottom: 483px;
     }
     .wcap3 span{
         font-size: 35px;
-        margin-left: 45px;
-        margin-right: 35px;
-        bottom: 136px;    
+        margin-left: 31px;
+        margin-right: 15px;
+        bottom: 136px;  
     }
     .whey{
-        height: 1500px;
+        height: 1438px;
     }
     .wlogo {
         width: 140px;
         height: 110px;
+        padding-left: 15px;
     }
     .wtitle::after {
         height: 5px;
@@ -691,36 +701,38 @@ margin-bottom: 10px;
     .dlogo{
         width: 274px;
         height: 72px;
-        top: -56px;
-        left: 68px;
+        top: -40px;
+        left: 33px;
     }
     .wend::after {
-        left: 23px;
+        left: -50px;
         height: 4px;
         background-color: #ce4b64;
         width: 491px;
+        bottom: -9px;
     }
     .wend span {
         font-size: 48px;
-        left: 634px;
+        left: 561px;
         color: #ce4b64;
+        bottom: 26px;
     }
     .wcap4 span{
         font-size: 35px;
-        margin-left: 35px;
-        margin-right: 26px;
-        bottom: 883px;
+        margin-left: 22px;
+        margin-right: 8px;
+        bottom: 827px;
     }
     .wcap5 span{
         font-size: 35px;
-        margin-left: 67px;
-        margin-right: 36px;
-        bottom: 503px;
+        margin-left: 54px;
+        margin-right: 21px;
+        bottom: 482px;
     }
     .wcap6 span{
         font-size: 35px;
-        margin-left: 60px;
-        margin-right: 4px;
+        margin-left: 48px;
+        margin-right: -21px;
         bottom: 136px;
     }
     .wcap6 span:nth-child(2){
@@ -728,113 +740,113 @@ margin-bottom: 10px;
     }
     .wcap7 span{
         font-size: 38px;
-        margin-left: 110px;
-        margin-right: 86px;
-        bottom: 883px;
+        margin-left: 90px;
+        margin-right: 77px;
+        bottom: 827px;
     }
     .wcap8 span{
         font-size: 34px;
-        margin-left: 88px;
-        margin-right: 1px;
-        bottom: 503px;
+        margin-left: 68px;
+        margin-right: -7px;
+        bottom: 481px;
     }
     .wcap9 span{
         font-size: 35px;
-        margin-left: 90px;
-        margin-right: 69px;
+        margin-left: 71px;
+        margin-right: 57px;
         bottom: 136px;
     }
     .wcap10 span{
         font-size: 35px;
-        margin-left: 75px;
-        margin-right: 11px;
-        bottom: 883px;
+        margin-left: 59px;
+        margin-right: -5px;
+        bottom: 827px;
     }
     .wcap11 span{
         font-size: 34px;
-        margin-left: 74px;
-        margin-right: 85px;
-        bottom: 503px;
+        margin-left: 57px;
+        margin-right: 53px;
+        bottom: 479px;
     }
     .wcap12 span{
         font-size: 35px;
-        margin-left: 79px;
-        margin-right: 18px;
+        margin-left: 72px;
+        margin-right: -16px;
         bottom: 136px;
     }
     .wcap13 span{
         font-size: 35px;
-        margin-left: 100px;
-        margin-right: 80px;
-        bottom: 883px;
+        margin-left: 84px;
+        margin-right: 63px;
+        bottom: 827px;
     }
     .wcap14 span{
         font-size: 34px;
-        margin-left: 37px;
-        margin-right: 38px;
-        bottom: 503px;
+        margin-left: 23px;
+        margin-right: 15px;
+        bottom: 481px;
     }
     .wcap15 span{
         font-size: 35px;
-        margin-left: 107px;
-        margin-right: 40px;
+        margin-left: 99px;
+        margin-right: 7px;
         bottom: 136px;
     }
     .wcap16 span{
         font-size: 35px;
-        margin-left: 58px;
-        margin-right: -6px;
-        bottom: 474px;
+        margin-left: 42px;
+        margin-right: -20px;
+        bottom: 443px;
     }
     .wcap17 span{
         font-size: 35px;
     }
     .wheyn{
-        height: 1043px;
+        height: 1020px;
     }
     .wcap18 span{
         font-size: 35px;
-        margin-left: 81px;
-        margin-right: 63px;
-        bottom: 883px;
+        margin-left: 70px;
+        margin-right: 44px;
+        bottom: 827px;
     }
     .wcap19 span{
         font-size: 34px;
-        margin-left: 53px;
-        margin-right: 80px;
-        bottom: 503px;
+        margin-left: 44px;
+        margin-right: 56px;
+        bottom: 478px;
     }
     .wcap20 span{
         font-size: 34px;
-        margin-left: 73px;
-        margin-right: 35px;
+        margin-left: 62px;
+        margin-right: 11px;
         bottom: 136px;
     }
     #About{
-        margin-top:96924px;
-        margin-left: -6px;
+        margin-top: 90030px;
+        margin-left: -7px;
         z-index: 7;
     }
     #Service{
-        margin-top: 96924px;
-        margin-left: -73px;
+        margin-top: 90030px;
+        margin-left: -75px;
         z-index: 7;
     }
     #pricing{
-        margin-top: 96924px;
+        margin-top: 90030px;
         margin-left: -65px;
         z-index: 7;
     }
     #contact{
-        margin-top: 96924px;
+        margin-top: 90030px;
         margin-left: -73px;
         z-index: 7;
     }
     #fabout{
         width: 400PX;
         height: 300px;
-        top: 47536px;
-        left: -1073px;
+        top: 44127px;
+        left: -1062px;
         position: relative;
     }
     #fabout div:nth-child(1),#fservice div:nth-child(1),#price div:nth-child(1),#cont div:nth-child(1){
@@ -859,7 +871,7 @@ margin-bottom: 10px;
     #fservice{
         width: 400PX;
         height: 300px;
-        top: -690px;
+        top: -752px;
         left: 170px;
         position: relative;
     }
@@ -870,16 +882,22 @@ margin-bottom: 10px;
     #price{
         width: 400PX;
         height: 300px;
-        top: -690px;
-        left: 219px;
+        top: -752px;
+        left: 163px;
         position: relative;
     }
     #cont{
         width: 400PX;
         height: 300px;
-        top: -690px;
-        left: -13px;
+        top: -752px;
+        left: -106px;
         position: relative;
+    }
+    article{
+        width: 0px;
+    }
+    main{
+        width: 0px;
     }
 }
 @media (min-width: 768px) and (max-width: 991px){
@@ -1135,7 +1153,212 @@ margin-bottom: 10px;
         margin-right: 25px;
     }
 }
-@media (max-width:259px){
+@media (min-width: 265px) and (max-width: 319px){
+    main{
+        margin-left:-3px;
+    }
+    .side{
+        margin-left: -3px;
+        min-width: 997px;
+        max-width: 1010px;
+        top: 45201px;
+    }
+    .sides li{
+        margin-right: 59px;
+    margin-left: 10px;
+    }
+    .sides{
+        box-shadow: 1px 0 2px 1px var(--border);
+    }
+    #About {
+        margin-top: 91595px;
+        margin-left: -5px;
+    }
+    #Service {
+        margin-top: 91595px;
+        margin-left: -26px;
+    }
+    #pricing {
+        margin-top: 91595px;
+        margin-left: -5px;
+    }
+    #contact {
+        margin-top: 91595px;
+        margin-left: -16px;
+    }
+    #fabout{
+        left: -1064px;
+        top: 44877px;
+    }
+    #fservice,#price{
+        top: -777px;
+    }
+    #cont{
+        left: -93px;
+        top: -777px;
+    }
+    section{
+        grid-template-areas:  "head head head head" " main main" "foot foot foot foot";
+    }
+    #head img,#gym img, .whey, .wheyn{
+        margin-left: -220px;
+        min-width: 987px;
+        max-width: 1010px;
+    }
+    article{
+        width: 0px;
+    }
+    main{
+        width: 0px;
+    }
+    #gtitle,#wtitle,#atitle{
+        margin-left: -187px;
+    }
+    .wimg img {
+        width: 290px;
+        height: 290px;
+    }
+    .wcap1 span {
+        font-size: 35px;
+        margin-left: 45px;
+        margin-right: -4px;
+        bottom: 843px;
+    }
+    .wcap2 span {
+        font-size: 38px;
+        margin-left: 82px;
+        margin-right: 65px;
+        bottom: 490px;
+    
+    }
+    .wcap3 span {
+        font-size: 35px;
+        margin-left: 33px;
+        margin-right: 20px;
+        bottom: 133px;
+    }
+    .dlogo{
+        top: -53px;
+        left: 66px;
+    }
+    .wend::after{
+        left: -14px;
+        height: 3px;
+        width: 455px;
+    }
+    .wend span{
+        left: 562px;
+    }
+    .whey{
+        height: 1411px;
+    }
+    .wcap4 span {
+        font-size: 35px;
+        margin-left: 26px;
+        margin-right: 9px;
+        bottom: 845px;
+    }
+    .wcap5 span {
+        font-size: 35px;
+        margin-left: 64px;
+        margin-right: 17px;
+        bottom: 490px;
+    }
+    .wcap6 span {
+        font-size: 35px;
+        margin-left: 58px;
+        margin-right: -25px;
+        bottom: 136px;
+    }
+    .wcap7 span {
+        font-size: 38px;
+        margin-left: 99px;
+        margin-right: 74px;
+        bottom: 847px;
+    }
+    .wcap8 span {
+        font-size: 35px;
+        margin-left: 67px;
+        margin-right: -4px;
+        bottom: 500px;
+    }
+    .wcap9 span {
+        font-size: 35px;
+        margin-left: 69px;
+        margin-right: 67px;
+        bottom: 136px;
+    }
+    .wcap10 span {
+        font-size: 35px;
+        margin-left: 61px;
+        margin-right: 3px;
+        bottom: 844px;
+    }
+    .wcap11 span {
+        font-size: 34px;
+        margin-left: 62px;
+        margin-right: 61px;
+        bottom: 492px;
+    }
+    .wcap12 span {
+        font-size: 35px;
+        margin-left: 66px;
+        margin-right: 12px;
+        bottom: 136px;
+    }
+    .wcap13 span {
+        font-size: 35px;
+        margin-left: 82px;
+        margin-right: 79px;
+        bottom: 844px;
+    }
+    .wcap14 span {
+        font-size: 35px;
+        margin-left: 23px;
+        margin-right: 16px;
+        bottom: 500px;
+    }
+    .wcap15 span {
+        font-size: 35px;
+        margin-left: 94px;
+        margin-right: 26px;
+        bottom: 136px;;
+    }
+    .wcap16 span {
+        font-size: 35px;
+        margin-left: 50px;
+        margin-right: -21px;
+        bottom: 453px;
+    }
+    .wcap18 span {
+        font-size: 35px;
+        margin-left: 76px;
+        margin-right: 44px;
+        bottom: 848px;
+    }
+    .wcap19 span {
+        font-size: 34px;
+        margin-left: 48px;
+        margin-right: 59px;
+        bottom: 491px;
+    }
+    .wcap20 span {
+        font-size: 34px;
+        margin-left: 64px;
+        margin-right: 31px;
+        bottom: 136px;
+    }
+    .whey{
+        height: 1470px;
+    }
+    header button li{
+        font-size: 37px;
+    }
+    header button{
+        margin-right: 34px;
+    }
+}
+@media (max-width:264px){
     .sides li{
         margin-left: 10px;
         margin-right: 113px;
@@ -1148,8 +1371,8 @@ margin-bottom: 10px;
         width: 200px;
     }
     #head img,#gym img,.whey,.wheyn{
-        width: 974px;
-        margin-left: -226px;
+        width: 955px;
+        margin-left: -207px;
     }
     #gtitle,#wtitle,#atitle{
         width: 907px;
@@ -1175,7 +1398,7 @@ margin-bottom: 10px;
     .wcap2 span {
         font-size: 38px;
         margin-left: 73px;
-        margin-right: 71px;
+        margin-right: 62px;
         bottom: 482px;
     }
     .wcap3 span {
@@ -1189,15 +1412,17 @@ margin-bottom: 10px;
         left: 66px;
     }
     .wend::after{
-        left: -14px;
+        left: -26px;
         height: 3px;
         width: 455px;
+        bottom: 5px;
     }
     .wend span{
-        left: 562px;
+        left: 549px;
+        bottom: 43px;
     }
     .whey{
-        height: 1411px;
+        height: 1410px;
     }
     .wcap4 span {
         font-size: 35px;
@@ -1220,13 +1445,13 @@ margin-bottom: 10px;
     .wcap7 span {
         font-size: 38px;
         margin-left: 82px;
-        margin-right: 86px;
+        margin-right: 79px;
         bottom: 827px;
     }
     .wcap8 span {
         font-size: 34px;
-        margin-left: 75px;
-        margin-right: -16px;
+        margin-left: 66px;
+        margin-right: -7px;
         bottom: 486px;
     }
     .wcap9 span {
@@ -1237,7 +1462,7 @@ margin-bottom: 10px;
     }
     .wcap10 span {
         font-size: 35px;
-        margin-left: 52px;
+        margin-left: 46px;
         margin-right: 11px;
         bottom: 823px;
     }
@@ -1279,8 +1504,8 @@ margin-bottom: 10px;
     }
     .wcap18 span {
         font-size: 35px;
-        margin-left: 65px;
-        margin-right: 51px;
+        margin-left: 73px;
+        margin-right: 35px;
         bottom: 821px;
     }
     .wcap19 span {
@@ -1296,23 +1521,23 @@ margin-bottom: 10px;
         bottom: 136px;
     }
     .side{
-        top: 44489px;
-        width: 976px;
+        top: 43809px;
+        width: 955px;
     }
     #About{
-        margin-top: 90139px;
+    margin-top: 88767px;
     }
     #Service{
-        margin-top: 90139px;
+    margin-top: 88767px;
     }
     #pricing{
-        margin-top: 90139px;
+    margin-top: 88767px;
     }
     #contact{
-        margin-top: 90139px;
+    margin-top: 88767px;
     }
     #fabout{
-        top: 44167px;
+        top: 43485px;
     }
     #fservice{
         top: -709px;
@@ -1327,7 +1552,7 @@ margin-bottom: 10px;
     }
     #cont{
         top: -709px;
-        left: -99px;
+        left: -119px;
     }
     section{
         grid-template-areas:  "head head head head" " main main" "foot foot foot foot";
@@ -1337,23 +1562,6 @@ margin-bottom: 10px;
     }
     main{
     width: 0px;
-    }
-}
-@media (min-width: 260px) and (max-width: 320px){
-    main{
-        margin-left:32px;
-    }
-    .side{
-        margin-left: 32px;
-    }
-    #About {
-        margin-top: 90139px;
-        margin-left: 32px;
-    }
-    #fabout{
-        left: -1040px;
-    }
-    section{
-        grid-template-areas:  "head head head head" " main main" "foot foot foot foot";
+    margin-left: -10px;
     }
 }
